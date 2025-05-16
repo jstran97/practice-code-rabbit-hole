@@ -22,7 +22,9 @@ class Solution:
             # Return n (if exists in cache{}) - If does not exist, default value = 0
             count[n] = 1 + count.get(n, 0)
 
-        # Go through each item we've counted in cache{} (hash map / Python dict)
+        # Add to Bucket Sort List.
+        # Append numbers to Lists []
+        # Go through each item we've counted in cache{} (hash map / Python dict).
         for num, c in count.items():
             freq[c].append(num) # Num n occurs c times
 
