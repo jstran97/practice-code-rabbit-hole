@@ -34,4 +34,3 @@ def rotateArrayToRight(nums, k):
 
 
 rotateArrayToRight(inputArray, 3)
-
